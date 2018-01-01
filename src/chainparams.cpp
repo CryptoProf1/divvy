@@ -89,12 +89,12 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1514839200;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 13238;
+        genesis.nNonce   = 370990;
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("042809d3115e048e6c0dae1eb9277ac8475b7b4503267ca5ba2667d056f0a7b4167d099a0d612d7152d5d897c19268c9c3cbd321a2f709b79597008c9b5e7bea34"));
-        assert(genesis.hashMerkleRoot == uint256("b825222a70d6a0a90e668d3a9894a206c245d2c8bbc1b2a7a4f3e5c29232290a"));
+        assert(hashGenesisBlock == uint256("0x000005c8722c6e3d48130e0ea80a6f672eb4eedb9900819b7b37f4de26c1fc80"));
+        assert(genesis.hashMerkleRoot == uint256("0b155d3117a47c3b282e1db44a3aa75b699c1db9095585178326786b42d822f4"));
 		
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
@@ -150,10 +150,10 @@ public:
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nTime    = 1514480100;
-        genesis.nNonce = 44;
+        genesis.nTime    = 1514839200;
+        genesis.nNonce = 191246;
 
-        assert(hashGenesisBlock == uint256("042809d3115e048e6c0dae1eb9277ac8475b7b4503267ca5ba2667d056f0a7b4167d099a0d612d7152d5d897c19268c9c3cbd321a2f709b79597008c9b5e7bea34"));
+        assert(hashGenesisBlock == uint256("0x00000888982310ef720eb41baf0f0f4ef372680b2905831ff3088e0ed404302c"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
