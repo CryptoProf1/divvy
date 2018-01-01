@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Divvy</source>
-        <translation>О Divvy</translation>
+        <source>About owncoin</source>
+        <translation>О owncoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Divvy&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Divvy&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;owncoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;owncoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Divvy developers</source>
+Copyright © 2015-2017 The owncoin developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2015-2017 Разработчики Divvy</translation>
+Все права защищены © 2015-2017 Разработчики owncoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Divvy addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your owncoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Divvy address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Divvy</translation>
+        <source>Sign a message to prove you own a owncoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом owncoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Divvy address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Divvy</translation>
+        <source>Verify a message to ensure it was signed with a specified owncoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом owncoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Divvy will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>owncoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Divvy</source>
-        <translation>Показать информацию о Divvy&apos;е</translation>
+        <source>Show information about owncoin</source>
+        <translation>Показать информацию о owncoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Divvy address</source>
-        <translation>Отправить монеты на указанный адрес Divvy</translation>
+        <source>Send coins to a owncoin address</source>
+        <translation>Отправить монеты на указанный адрес owncoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Divvy</source>
-        <translation>Изменить параметры конфигурации Divvy</translation>
+        <source>Modify configuration options for owncoin</source>
+        <translation>Изменить параметры конфигурации owncoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Divvy</source>
-        <translation>Divvy</translation>
+        <source>owncoin</source>
+        <translation>owncoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Divvy</source>
-        <translation>&amp;О Divvy</translation>
+        <source>&amp;About owncoin</source>
+        <translation>&amp;О owncoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,12 +500,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Divvy client</source>
-        <translation>Divvy клиент</translation>
+        <source>owncoin client</source>
+        <translation>owncoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Divvy network</source>
+        <source>%n active connection(s) to owncoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -600,8 +600,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Divvy address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Divvy или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid owncoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом owncoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Divvy can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Divvy не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. owncoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. owncoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -1043,8 +1043,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Divvy address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным Divvy-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid owncoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным owncoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1062,8 +1062,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Divvy-Qt</source>
-        <translation>Divvy-Qt</translation>
+        <source>owncoin-Qt</source>
+        <translation>owncoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1135,13 +1135,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Divvy after logging in to the system.</source>
-        <translation>Автоматически запускать Divvy после входа в систему</translation>
+        <source>Automatically start owncoin after logging in to the system.</source>
+        <translation>Автоматически запускать owncoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Divvy on system login</source>
-        <translation>&amp;Запускать Divvy при входе в систему</translation>
+        <source>&amp;Start owncoin on system login</source>
+        <translation>&amp;Запускать owncoin при входе в систему</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1150,8 +1150,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Divvy client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Divvy-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the owncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для owncoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1160,8 +1160,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Divvy network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети Divvy через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the owncoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети owncoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1235,8 +1235,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Divvy.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Divvy.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting owncoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска owncoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1302,8 +1302,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Divvy.</source>
-        <translation>Эта настройка вступит в силу после перезапуска Divvy</translation>
+        <source>This setting will take effect after restarting owncoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска owncoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1321,8 +1321,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Divvy network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Divvy после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the owncoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью owncoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1563,8 +1563,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Divvy-Qt help message to get a list with possible Divvy command-line options.</source>
-        <translation>Показать помощь по Divvy-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the owncoin-Qt help message to get a list with possible owncoin command-line options.</source>
+        <translation>Показать помощь по owncoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1583,13 +1583,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Divvy - Debug window</source>
-        <translation>Divvy - Окно отладки</translation>
+        <source>owncoin - Debug window</source>
+        <translation>owncoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Divvy Core</source>
-        <translation>Ядро Divvy</translation>
+        <source>owncoin Core</source>
+        <translation>Ядро owncoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1598,8 +1598,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Divvy debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Divvy из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the owncoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл owncoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1608,8 +1608,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Divvy RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Divvy.</translation>
+        <source>Welcome to the owncoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль owncoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1802,8 +1802,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Divvy address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите Divvy-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a owncoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите owncoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1902,7 +1902,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Divvy address</source>
+        <source>WARNING: Invalid owncoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1976,8 +1976,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Divvy address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите Divvy-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a owncoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите owncoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2037,8 +2037,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Divvy address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Divvy</translation>
+        <source>Sign the message to prove you own this owncoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом owncoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2069,8 +2069,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Divvy address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Divvy</translation>
+        <source>Verify the message to ensure it was signed with the specified owncoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом owncoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2080,8 +2080,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Divvy address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите адрес Divvy (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a owncoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите адрес owncoin (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2090,8 +2090,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Divvy signature</source>
-        <translation>Введите подпись Divvy</translation>
+        <source>Enter owncoin signature</source>
+        <translation>Введите подпись owncoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2669,7 +2669,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Divvy version</source>
+        <source>owncoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2679,8 +2679,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or divvyd</source>
-        <translation>Отправить команду на -server или divvyd</translation>
+        <source>Send command to -server or owncoind</source>
+        <translation>Отправить команду на -server или owncoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2700,13 +2700,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: divvy.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: divvy.conf)</translation>
+        <source>Specify configuration file (default: owncoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: owncoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: divvyd.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: divvyd.pid)</translation>
+        <source>Specify pid file (default: owncoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: owncoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2723,13 +2723,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=divvyrpc
+rpcuser=owncoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Divvy Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;owncoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2835,8 +2835,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Divvy Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Divvy will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Divvy будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong owncoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, owncoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3142,7 +3142,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Divvy Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Divvy is shutting down.</source>
+        <source>Initialization sanity check failed. owncoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3207,13 +3207,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Divvy Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Divvy</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Divvy</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of owncoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию owncoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Divvy to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Divvy для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart owncoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите owncoin для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3277,8 +3277,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Divvy Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Divvy is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Divvy уже работает.</translation>
+        <source>Unable to bind to %s on this computer. owncoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, owncoin уже работает.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3317,7 +3317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Divvy Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Divvy is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. owncoin is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>

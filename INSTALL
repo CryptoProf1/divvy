@@ -1,9 +1,9 @@
-Building Divvy
+Building owncoin
 
-See doc/readme-qt.rst for instructions on building Divvy QT,
+See doc/readme-qt.rst for instructions on building owncoin QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Divvy.
+implementation of owncoin.
 
-See doc/build-*.txt for instructions on building divvyd,
+See doc/build-*.txt for instructions on building owncoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Divvy.
+implementation of owncoin.

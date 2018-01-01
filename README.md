@@ -1,4 +1,4 @@
-DIVVY [DVY] CORE
+owncoin [DVY] CORE
 ================================
 
 Specifications:
@@ -35,7 +35,7 @@ Specifications:
 * 40 MegaByte Maximum Block Size (40X Bitcoin Core)
 
 
-Divvy includes an Address Index feature, based on the address index API (searchrawtransactions RPC command) implemented in Bitcoin Core but modified implementation to work with the DVY codebase (PoS coins maintain a txindex by default for instance).
+owncoin includes an Address Index feature, based on the address index API (searchrawtransactions RPC command) implemented in Bitcoin Core but modified implementation to work with the DVY codebase (PoS coins maintain a txindex by default for instance).
 
 Initialize the Address Index By Running with -reindexaddr Command Line Argument.  It may take 10-15 minutes to build the initial index.
 
@@ -67,13 +67,13 @@ Build
 ----------------------
 1.  Clone the source:
 
-        git clone https://github.com/divvycrypto/divvy/
+        git clone https://github.com/owncoincrypto/owncoin/
 
-2.  Build divvy:
+2.  Build owncoin:
 
     Configure and build.
 
-        cd divvy
+        cd owncoin
         cd src/
         make -f makefile.unix   
 
@@ -82,9 +82,9 @@ Build
 Masternode configuration is very similiar to other Masternodes coins.
 ----------------------
 
-edit divvy.conf
+edit owncoin.conf
 
-      rpcuser=divvy
+      rpcuser=owncoin
       rpcpassword=putyourpasswordhere
       rpcallowip=127.0.0.1
       rpcport=11446

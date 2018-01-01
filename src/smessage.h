@@ -166,7 +166,7 @@ public:
 
 
 // -- get at the data
-class CDivvycoinAddress_B : public CDivvycoinAddress
+class CowncoincoinAddress_B : public CowncoincoinAddress
 {
 public:
     uint8_t getVersion()

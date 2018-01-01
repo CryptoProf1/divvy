@@ -3,27 +3,27 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>divvy.icns</string>
+	<string>owncoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Divvy-Qt</string>
+	<string>owncoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Divvy-Qt</string>
+	<string>owncoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.divvy.Divvy-Qt</string>
+	<string>co.owncoin.owncoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.divvy.DivvyPayment</string>
+            <string>co.owncoin.owncoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>divvy</string>
+              <string>owncoin</string>
             </array>
           </dict>
         </array>

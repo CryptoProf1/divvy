@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = divvy-qt
+TARGET = owncoin-qt
 VERSION = 1.0.0.1
 INCLUDEPATH += src src/json src/qt src/qt/plugins/mrichtexteditor
 QT += network printsupport
@@ -30,20 +30,20 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 DEFINES += BOOST_VARIANT_USE_RELAXED_GET_BY_DEFAULT
 
 win32:BOOST_LIB_SUFFIX=-mt
-win32:BOOST_INCLUDE_PATH=d:/project/divvy/include/boost
-win32:BOOST_LIB_PATH=d:/project/divvy/lib
-win32:BDB_INCLUDE_PATH=d:/project/divvy/include/
-win32:BDB_LIB_PATH=d:/project/divvy/lib
-win32:OPENSSL_INCLUDE_PATH=d:/project/divvy/include/
-win32:OPENSSL_LIB_PATH=d:/project/divvy/lib
-win32:MINIUPNPC_INCLUDE_PATH=d:/project/divvy/include/
-win32:MINIUPNPC_LIB_PATH=d:/project/divvy/lib
-win32:LIBPNG_INCLUDE_PATH=d:/project/divvy/include/
-win32:LIBPNG_LIB_PATH=d:/project/divvy/lib
-win32:QRENCODE_INCLUDE_PATH=d:/project/divvy/include/
-win32:QRENCODE_LIB_PATH=d:/project/divvy/lib
-win32:SECP256K1_LIB_PATH = d:/project/divvy/include/
-win32:SECP256K1_INCLUDE_PATH = d:/project/divvy/lib
+win32:BOOST_INCLUDE_PATH=d:/project/owncoin/include/boost
+win32:BOOST_LIB_PATH=d:/project/owncoin/lib
+win32:BDB_INCLUDE_PATH=d:/project/owncoin/include/
+win32:BDB_LIB_PATH=d:/project/owncoin/lib
+win32:OPENSSL_INCLUDE_PATH=d:/project/owncoin/include/
+win32:OPENSSL_LIB_PATH=d:/project/owncoin/lib
+win32:MINIUPNPC_INCLUDE_PATH=d:/project/owncoin/include/
+win32:MINIUPNPC_LIB_PATH=d:/project/owncoin/lib
+win32:LIBPNG_INCLUDE_PATH=d:/project/owncoin/include/
+win32:LIBPNG_LIB_PATH=d:/project/owncoin/lib
+win32:QRENCODE_INCLUDE_PATH=d:/project/owncoin/include/
+win32:QRENCODE_LIB_PATH=d:/project/owncoin/lib
+win32:SECP256K1_LIB_PATH = d:/project/owncoin/include/
+win32:SECP256K1_INCLUDE_PATH = d:/project/owncoin/lib
 
 OBJECTS_DIR = build
 MOC_DIR = build
@@ -596,8 +596,8 @@ macx:HEADERS += src/qt/macdockiconhandler.h src/qt/macnotificationhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm src/qt/macnotificationhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit -framework CoreServices
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/divvy.icns
-macx:TARGET = "Divvy-Qt"
+macx:ICON = src/qt/res/icons/owncoin.icns
+macx:TARGET = "owncoin-Qt"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

@@ -66,13 +66,13 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    if (!settings.contains("nAnonymizeDivvyAmount"))
-        settings.setValue("nAnonymizeDivvyAmount", 1000);
-    nAnonymizeDivvyAmount = settings.value("nAnonymizeDivvyAmount").toLongLong();
+    if (!settings.contains("nAnonymizeowncoinAmount"))
+        settings.setValue("nAnonymizeowncoinAmount", 1000);
+    nAnonymizeowncoinAmount = settings.value("nAnonymizeowncoinAmount").toLongLong();
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeDivvyAmount"))
-        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeDivvyAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeowncoinAmount"))
+        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeowncoinAmount").toString().toStdString());
 
 
 
@@ -206,8 +206,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fCoinControlFeatures;
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeDivvyAmount:
-            return QVariant(nAnonymizeDivvyAmount);
+        case AnonymizeowncoinAmount:
+            return QVariant(nAnonymizeowncoinAmount);
         case UseBlackTheme:
             return QVariant(fUseBlackTheme);
         default:
@@ -318,10 +318,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeDivvyAmount:
-            nAnonymizeDivvyAmount = value.toInt();
-            settings.setValue("nAnonymizeDivvyAmount", nAnonymizeDivvyAmount);
-            emit AnonymizeDivvyAmountChanged(nAnonymizeDivvyAmount);
+        case AnonymizeowncoinAmount:
+            nAnonymizeowncoinAmount = value.toInt();
+            settings.setValue("nAnonymizeowncoinAmount", nAnonymizeowncoinAmount);
+            emit AnonymizeowncoinAmountChanged(nAnonymizeowncoinAmount);
             break;
         default:
             break;

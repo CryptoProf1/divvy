@@ -6,7 +6,7 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/divvyd
+src/owncoind
 
 .deps
 .dirstamp
@@ -19,7 +19,7 @@ src/divvyd
 *.pyc
 *.o
 *.o-*
-.divvy
+.owncoin
 *.a
 *.pb.cc
 *.pb.h
@@ -56,5 +56,5 @@ build
 
 
 #development symlinks
-divvyd
-divvy-qt
+owncoind
+owncoin-qt

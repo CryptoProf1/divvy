@@ -92,23 +92,23 @@ public:
     bool operator> (const CBase58Data& b58) const { return CompareTo(b58) >  0; }
 };
 
-/** base58-encoded Divvy addresses.
+/** base58-encoded owncoin addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).
  * The data vector contains RIPEMD160(SHA256(pubkey)), where pubkey is the serialized public key.
  * Script-hash-addresses have version 5 (or 196 testnet).
  * The data vector contains RIPEMD160(SHA256(cscript)), where cscript is the serialized redemption script.
  */
-class CDivvycoinAddress : public CBase58Data {
+class CowncoincoinAddress : public CBase58Data {
 public:
     bool Set(const CKeyID &id);
     bool Set(const CScriptID &id);
     bool Set(const CTxDestination &dest);
     bool IsValid() const;
 
-    CDivvycoinAddress() {}
-    CDivvycoinAddress(const CTxDestination &dest) { Set(dest); }
-    CDivvycoinAddress(const std::string& strAddress) { SetString(strAddress); }
-    CDivvycoinAddress(const char* pszAddress) { SetString(pszAddress); }
+    CowncoincoinAddress() {}
+    CowncoincoinAddress(const CTxDestination &dest) { Set(dest); }
+    CowncoincoinAddress(const std::string& strAddress) { SetString(strAddress); }
+    CowncoincoinAddress(const char* pszAddress) { SetString(pszAddress); }
 
     CTxDestination Get() const;
     bool GetKeyID(CKeyID &keyID) const;
@@ -118,7 +118,7 @@ public:
 /**
  * A base58-encoded secret key
  */
-class CDivvycoinSecret : public CBase58Data
+class CowncoincoinSecret : public CBase58Data
 {
 public:
     void SetKey(const CKey& vchSecret);
@@ -127,11 +127,11 @@ public:
     bool SetString(const char* pszSecret);
     bool SetString(const std::string& strSecret);
 
-    CDivvycoinSecret(const CKey& vchSecret) { SetKey(vchSecret); }
-    CDivvycoinSecret() {}
+    CowncoincoinSecret(const CKey& vchSecret) { SetKey(vchSecret); }
+    CowncoincoinSecret() {}
 };
 
-template<typename K, int Size, CChainParams::Base58Type Type> class CDivvycoinExtKeyBase : public CBase58Data
+template<typename K, int Size, CChainParams::Base58Type Type> class CowncoincoinExtKeyBase : public CBase58Data
 {
 public:
     void SetKey(const K &key) {
@@ -146,15 +146,15 @@ public:
         return ret;
     }
 
-    CDivvycoinExtKeyBase(const K &key) {
+    CowncoincoinExtKeyBase(const K &key) {
         SetKey(key);
     }
 
-    CDivvycoinExtKeyBase() {}
+    CowncoincoinExtKeyBase() {}
 };
 
-typedef CDivvycoinExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CDivvycoinExtKey;
-typedef CDivvycoinExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CDivvycoinExtPubKey;
+typedef CowncoincoinExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CowncoincoinExtKey;
+typedef CowncoincoinExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CowncoincoinExtPubKey;
 
 /** base58-encoded Bitcoin addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).

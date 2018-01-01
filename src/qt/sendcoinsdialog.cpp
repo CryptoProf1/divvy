@@ -43,7 +43,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Divvy address (e.g. 9buYoyHUb393JbFcug3WnavAtuYt6Ffx9w)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a owncoin address (e.g. 9buYoyHUb393JbFcug3WnavAtuYt6Ffx9w)"));
 #endif
 
     addEntry();
@@ -537,7 +537,7 @@ bool SendCoinsDialog::handleURI(const QString &uri)
     // URI has to be valid
     if (GUIUtil::parseBitcoinURI(uri, &rv))
     {
-        CDivvycoinAddress address(rv.address.toStdString());
+        CowncoincoinAddress address(rv.address.toStdString());
         if (!address.IsValid())
             return false;
         pasteEntry(rv);
@@ -847,7 +847,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         CoinControlDialog::coinControl->destChange = CNoDestination();
         ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
 
-        CDivvycoinAddress addr = CDivvycoinAddress(text.toStdString());
+        CowncoincoinAddress addr = CowncoincoinAddress(text.toStdString());
 
         if (text.isEmpty()) // Nothing entered
         {
@@ -855,7 +855,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Divvy address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid owncoin address"));
         }
         else // Valid address
         {

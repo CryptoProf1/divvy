@@ -17,7 +17,7 @@ class CTxIn;
 class CDarksendPool;
 class CDarkSendSigner;
 class CMasterNodeVote;
-class CDivvycoinAddress;
+class CowncoincoinAddress;
 class CDarksendQueue;
 class CDarksendBroadcastTx;
 class CActiveMasternode;
