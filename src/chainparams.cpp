@@ -57,11 +57,11 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0xa3;
-        pchMessageStart[1] = 0xc4;
-        pchMessageStart[2] = 0xb1;
-        pchMessageStart[3] = 0xde;
-        vAlertPubKey = ParseHex("04378297288b1e4264789958bbe43b63ae4a1a2523b24300a3de1c5c8f4ec1e13eece09ebb0e9514f7b2b7e65f35f3a6ef6279d512f755078347bdcdf4ac378704");
+        pchMessageStart[0] = 0xb1;
+        pchMessageStart[1] = 0xd4;
+        pchMessageStart[2] = 0xf3;
+        pchMessageStart[3] = 0xdb;
+        vAlertPubKey = ParseHex("04d0f0999d3803704bdb2b9e68537ecf11e35f34b5dd76a9e32190171b9deb69bacae0612e3b3a90d10a1d876c3ab5ee450a2121ba32b18c781f88335fba48a2d7");
         nDefaultPort = 11445;
         nRPCPort = 11446;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
@@ -75,26 +75,27 @@ public:
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
 
-        const char* pszTimestamp = "Los Angeles Times - JP Morgan Applies for Blockchain Patent 175 Times";
+        const char* pszTimestamp = "I create my owncoin 1/1/2018 for test , End its work for me. I hope this guide help you";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1514480400, vin, vout, 0);
+        CTransaction txNew(1, 1514839200, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1514480400;
+        genesis.nTime    = 1514839200;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 13238;
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x00005b1ac9177dd8fd120e1cba30baae9dd268fa0a99d24a217fce459a634615"));
-        assert(genesis.hashMerkleRoot == uint256("0x9703daae20c6004ee17efba12544120e6b639a43e4d9ad7971e4d6555a09e322"));
+        assert(hashGenesisBlock == uint256("042809d3115e048e6c0dae1eb9277ac8475b7b4503267ca5ba2667d056f0a7b4167d099a0d612d7152d5d897c19268c9c3cbd321a2f709b79597008c9b5e7bea34"));
+        assert(genesis.hashMerkleRoot == uint256("b825222a70d6a0a90e668d3a9894a206c245d2c8bbc1b2a7a4f3e5c29232290a"));
+		
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,18);
@@ -103,8 +104,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        vSeeds.push_back(CDNSSeedData("0","node1.owncoincrypto.io"));
-        vSeeds.push_back(CDNSSeedData("1","node2.owncoincrypto.io"));
+		vSeeds.clear();
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
         nPoolMaxTransactions = 3;
@@ -137,12 +137,12 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0xd3;
-        pchMessageStart[1] = 0xc4;
-        pchMessageStart[2] = 0xb1;
-        pchMessageStart[3] = 0xdf;
+        pchMessageStart[0] = 0xb1;
+        pchMessageStart[1] = 0xd4;
+        pchMessageStart[2] = 0xf3;
+        pchMessageStart[3] = 0xdb;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
-        vAlertPubKey = ParseHex("044c0f17b03507d43fa568e5aa7845e5d4398708bdccc0f658d67029224ad170babc8492d73bbc95ffca8f73eab12d9bb2d87ea6671b0ec023e2fdf1a141ac4624");
+        vAlertPubKey = ParseHex("04d0f0999d3803704bdb2b9e68537ecf11e35f34b5dd76a9e32190171b9deb69bacae0612e3b3a90d10a1d876c3ab5ee450a2121ba32b18c781f88335fba48a2d7");
         nDefaultPort = 22445;
         nRPCPort = 22446;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 8);
@@ -153,7 +153,7 @@ public:
         genesis.nTime    = 1514480100;
         genesis.nNonce = 44;
 
-        assert(hashGenesisBlock == uint256("0x00005b1ac9177dd8fd120e1cba30baae9dd268fa0a99d24a217fce459a634615"));
+        assert(hashGenesisBlock == uint256("042809d3115e048e6c0dae1eb9277ac8475b7b4503267ca5ba2667d056f0a7b4167d099a0d612d7152d5d897c19268c9c3cbd321a2f709b79597008c9b5e7bea34"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
